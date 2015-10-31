@@ -1,6 +1,8 @@
-# Q0: Why is this error being thrown?
+# Q0: Why is this error being thrown? 
+# Because a Pokemon model hasn't been generated.
 
 # Q1: How are the random Pokemon appearing? What is the common factor between all the possible Pokemon that appear? *
+# The controller returns a random pokemon from the list of pokemon with a trainer field of nil. The common factor is that the trainer field must be nil.
 
 # Question 2a: What does the following line do "<%= button_to "Throw a Pokeball!", capture_path(id: @pokemon), :class => "button medium", :method => :patch %>"? Be specific about what "capture_path(id: @pokemon)" is doing. If you're having trouble, look at the Help section in the README.
 
