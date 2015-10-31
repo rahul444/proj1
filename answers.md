@@ -5,6 +5,7 @@
 # The controller returns a random pokemon from the list of pokemon with a trainer field of nil. The common factor is that the trainer field must be nil.
 
 # Question 2a: What does the following line do "<%= button_to "Throw a Pokeball!", capture_path(id: @pokemon), :class => "button medium", :method => :patch %>"? Be specific about what "capture_path(id: @pokemon)" is doing. If you're having trouble, look at the Help section in the README.
+# It is giving the paramater id: @pokemon to the path /capture. This gives the current pokemon's id. It also sets the the HTTP request to patch.
 
 # Question 3: What would you name your own Pokemon?
 
