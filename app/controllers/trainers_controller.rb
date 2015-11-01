@@ -8,7 +8,6 @@ class TrainersController < ApplicationController
   def show
     @trainer = Trainer.find(params[:id])
     @pokemons = Pokemon.where(trainer: current_trainer)
-    
   end
 
 end
