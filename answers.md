@@ -14,6 +14,7 @@
 # I passed in a trainers_path with :trainer.
 
 # Question 5: Explain how putting this line "flash[:error] = @pokemon.errors.full_messages.to_sentence" shows error messages on your form.
+# It tells rails to show a message defined by :error. It is the default error message.
 
 # Give us feedback on the project and decal below!
 
